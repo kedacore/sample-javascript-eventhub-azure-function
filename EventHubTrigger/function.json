@@ -1,0 +1,15 @@
+{
+  "bindings": [
+    {
+      "type": "eventHubTrigger",
+      "name": "eventHubMessages",
+      "direction": "in",
+      "eventHubName": "sample-eventhub",
+      "connection": "EventHub",
+      "storageConnection": "AzureWebJobsStorage",
+      "dataType": "string",
+      "cardinality": "many",
+      "consumerGroup": "$Default"
+    }
+  ]
+}
