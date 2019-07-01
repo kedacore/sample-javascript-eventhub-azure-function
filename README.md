@@ -43,9 +43,7 @@ This sample goes through the basics of creating an Azure Function that triggers 
   
  **5. Create an Azure Storage Account**
  
-  Functions is built on top of an __event processor host [(EPH)](https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-event-processor-host)__, an intelligent consumer agent that simplifies the management of checkpointing, leasing, and parallel event readers. To use the EPH, you must have an Azure Storage Account set up to store checkpointing and leasing information. 
-  
-  **Note: As of now, the Event Hub scaler only supports reading from Blob Storage, as well as scaling only Event Hub applications created with .NET Core or Azure Functions.**
+  Functions is built on top of an __event processor host [(EPH)](https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-event-processor-host)__, an intelligent consumer agent that simplifies the management of checkpointing, leasing, and parallel event readers. To use the EPH, you must have an Azure Storage Account set up to store checkpointing and leasing information. **As of now, the Event Hub scaler only supports reading from Blob Storage, as well as scaling only Event Hub applications written in C# or created with Azure Functions.**
   
   Click `+ Add` in Storage accounts. Fill in the same subscription and resource group that you used before, and choose a storage account name and a location. Everything else can be left as their default values. Click `Review + Create` and then `Create` again.
   
