@@ -19,7 +19,7 @@ This sample goes through the basics of creating an Azure Function that triggers 
   ```
   func init . --docker
   ```
-  Select **node** and **Javascript**
+  Select **node** and **javascript**
 
 **3. Add a new Event Hub triggered function**
   ```
