@@ -126,6 +126,7 @@ Endpoint=sb://<your-eventhub-namespace>.servicebus.windows.net/;SharedAccessKeyN
  ```
  
  **9. Debug and test the function locally (optional but recommended)**
+ 
 To make sure that you have the right settings it is recommended that you test the function locally. 
 
 To test your function locally, you must create a separate program to make a producer that can send messages to your Event Hub. You can create this producer using [.NET Framework](https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-dotnet-framework-getstarted-send), [Java](https://docs.microsoft.com/en-us/java/azure/spring-framework/configure-spring-cloud-stream-binder-java-app-azure-event-hub?toc=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fazure%2Fevent-hubs%2FTOC.json&bc=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fazure%2Fbread%2Ftoc.json&view=azure-java-stable), [Python](https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-python-get-started-send?view=azure-java-stable), [Node.js](https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-node-get-started-send?view=azure-java-stable), [Go](https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-go-get-started-send?view=azure-java-stable), and [C](https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-c-getstarted-send?view=azure-java-stable). 
